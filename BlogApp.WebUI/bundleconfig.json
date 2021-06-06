@@ -1,0 +1,45 @@
+[
+  {
+    "outputFileName": "wwwroot/css/bundle.css",
+    "inputFiles": [
+      "wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "wwwroot/css/style.css"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/css/dataTables.css",
+    "inputFiles": [
+      "wwwroot/lib/datatables/css/jquery.dataTables.min.css",
+      "wwwroot/lib/datatables/css/buttons.dataTables.min.css",
+      "wwwroot/lib/datatables/css/style.css"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/js/bundle.js",
+    "inputFiles": [
+      "wwwroot/lib/jquery/jquery.min.js",
+      "wwwroot/lib/tether/dist/js/tether.js",
+      "wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "wwwroot/js/script.js"
+
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/js/dataTables.js",
+    "inputFiles": [
+      "wwwroot/lib/datatables/js/jquery.dataTables.min.js",
+      "wwwroot/lib/datatables/cikti/js/dataTables.buttons.min.js",
+      "wwwroot/lib/datatables/cikti/js/jszip.min.js",
+      "wwwroot/lib/datatables/cikti/js/pdfmake.min.js",
+      "wwwroot/lib/datatables/cikti/js/vfs_fonts.js",
+      "wwwroot/lib/datatables/cikti/js/buttons.html5.min.js",
+      "wwwroot/lib/datatables/cikti/js/buttons.print.min.js",
+      //"wwwroot/lib/datatables/js/script.js",
+      "wwwroot/lib/datatables/cikti/js/script.js"
+
+
+
+
+    ]
+  }
+]

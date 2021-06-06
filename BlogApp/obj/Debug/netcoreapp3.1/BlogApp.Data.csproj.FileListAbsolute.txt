@@ -1,0 +1,12 @@
+C:\Users\ev\source\repos\BlogApp\BlogApp\bin\Debug\netcoreapp3.1\BlogApp.Data.deps.json
+C:\Users\ev\source\repos\BlogApp\BlogApp\bin\Debug\netcoreapp3.1\BlogApp.Data.dll
+C:\Users\ev\source\repos\BlogApp\BlogApp\bin\Debug\netcoreapp3.1\BlogApp.Data.pdb
+C:\Users\ev\source\repos\BlogApp\BlogApp\bin\Debug\netcoreapp3.1\BlogApp.Entity.dll
+C:\Users\ev\source\repos\BlogApp\BlogApp\bin\Debug\netcoreapp3.1\BlogApp.Entity.pdb
+C:\Users\ev\source\repos\BlogApp\BlogApp\obj\Debug\netcoreapp3.1\BlogApp.Data.csprojAssemblyReference.cache
+C:\Users\ev\source\repos\BlogApp\BlogApp\obj\Debug\netcoreapp3.1\BlogApp.Data.AssemblyInfoInputs.cache
+C:\Users\ev\source\repos\BlogApp\BlogApp\obj\Debug\netcoreapp3.1\BlogApp.Data.AssemblyInfo.cs
+C:\Users\ev\source\repos\BlogApp\BlogApp\obj\Debug\netcoreapp3.1\BlogApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\ev\source\repos\BlogApp\BlogApp\obj\Debug\netcoreapp3.1\BlogApp.Data.csproj.CopyComplete
+C:\Users\ev\source\repos\BlogApp\BlogApp\obj\Debug\netcoreapp3.1\BlogApp.Data.dll
+C:\Users\ev\source\repos\BlogApp\BlogApp\obj\Debug\netcoreapp3.1\BlogApp.Data.pdb

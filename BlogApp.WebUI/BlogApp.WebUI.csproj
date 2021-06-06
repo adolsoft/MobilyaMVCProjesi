@@ -1,0 +1,234 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="bower.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove=".bowerrc" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\lib\popper.js\CHANGELOG.md" />
+    <None Include="wwwroot\lib\popper.js\CODE_OF_CONDUCT.md" />
+    <None Include="wwwroot\lib\popper.js\CONTRIBUTING.md" />
+    <None Include="wwwroot\lib\popper.js\dist\esm\popper-utils.js" />
+    <None Include="wwwroot\lib\popper.js\dist\esm\popper-utils.js.map" />
+    <None Include="wwwroot\lib\popper.js\dist\esm\popper-utils.min.js" />
+    <None Include="wwwroot\lib\popper.js\dist\esm\popper-utils.min.js.map" />
+    <None Include="wwwroot\lib\popper.js\dist\esm\popper.js" />
+    <None Include="wwwroot\lib\popper.js\dist\esm\popper.js.map" />
+    <None Include="wwwroot\lib\popper.js\dist\esm\popper.min.js" />
+    <None Include="wwwroot\lib\popper.js\dist\esm\popper.min.js.map" />
+    <None Include="wwwroot\lib\popper.js\dist\popper-utils.js" />
+    <None Include="wwwroot\lib\popper.js\dist\popper-utils.js.map" />
+    <None Include="wwwroot\lib\popper.js\dist\popper-utils.min.js" />
+    <None Include="wwwroot\lib\popper.js\dist\popper-utils.min.js.map" />
+    <None Include="wwwroot\lib\popper.js\dist\popper.js" />
+    <None Include="wwwroot\lib\popper.js\dist\popper.js.map" />
+    <None Include="wwwroot\lib\popper.js\dist\popper.min.js" />
+    <None Include="wwwroot\lib\popper.js\dist\popper.min.js.map" />
+    <None Include="wwwroot\lib\popper.js\dist\umd\popper-utils.js" />
+    <None Include="wwwroot\lib\popper.js\dist\umd\popper-utils.js.map" />
+    <None Include="wwwroot\lib\popper.js\dist\umd\popper-utils.min.js" />
+    <None Include="wwwroot\lib\popper.js\dist\umd\popper-utils.min.js.map" />
+    <None Include="wwwroot\lib\popper.js\dist\umd\popper.js" />
+    <None Include="wwwroot\lib\popper.js\dist\umd\popper.js.map" />
+    <None Include="wwwroot\lib\popper.js\dist\umd\popper.min.js" />
+    <None Include="wwwroot\lib\popper.js\dist\umd\popper.min.js.map" />
+    <None Include="wwwroot\lib\popper.js\docs\CNAME" />
+    <None Include="wwwroot\lib\popper.js\docs\css\ie8.scss" />
+    <None Include="wwwroot\lib\popper.js\docs\css\ie9.scss" />
+    <None Include="wwwroot\lib\popper.js\docs\css\images\arrow.svg" />
+    <None Include="wwwroot\lib\popper.js\docs\css\images\bars.svg" />
+    <None Include="wwwroot\lib\popper.js\docs\css\images\close.svg" />
+    <None Include="wwwroot\lib\popper.js\docs\css\main.scss" />
+    <None Include="wwwroot\lib\popper.js\docs\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\lib\popper.js\docs\fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\lib\popper.js\docs\js\ie\backgroundsize.min.htc" />
+    <None Include="wwwroot\lib\popper.js\docs\js\ie\html5shiv.js" />
+    <None Include="wwwroot\lib\popper.js\docs\js\ie\respond.min.js" />
+    <None Include="wwwroot\lib\popper.js\docs\js\jquery.min.js" />
+    <None Include="wwwroot\lib\popper.js\docs\js\jquery.nanoscroller.js" />
+    <None Include="wwwroot\lib\popper.js\docs\js\jquery.scrollex.min.js" />
+    <None Include="wwwroot\lib\popper.js\docs\js\jquery.scrolly.min.js" />
+    <None Include="wwwroot\lib\popper.js\docs\js\main.js" />
+    <None Include="wwwroot\lib\popper.js\docs\js\skel.min.js" />
+    <None Include="wwwroot\lib\popper.js\docs\js\util.js" />
+    <None Include="wwwroot\lib\popper.js\docs\_config.yml" />
+    <None Include="wwwroot\lib\popper.js\docs\_includes\popper-documentation.md" />
+    <None Include="wwwroot\lib\popper.js\docs\_includes\tooltip-documentation.md" />
+    <None Include="wwwroot\lib\popper.js\docs\_sass\libs\_functions.scss" />
+    <None Include="wwwroot\lib\popper.js\docs\_sass\libs\_mixins.scss" />
+    <None Include="wwwroot\lib\popper.js\docs\_sass\libs\_skel.scss" />
+    <None Include="wwwroot\lib\popper.js\docs\_sass\libs\_vars.scss" />
+    <None Include="wwwroot\lib\popper.js\LICENSE.md" />
+    <None Include="wwwroot\lib\popper.js\MENTIONS.md" />
+    <None Include="wwwroot\lib\popper.js\packages\babel-config\index.js" />
+    <None Include="wwwroot\lib\popper.js\packages\babel-config\yarn.lock" />
+    <None Include="wwwroot\lib\popper.js\packages\bundle\index.js" />
+    <None Include="wwwroot\lib\popper.js\packages\bundle\yarn.lock" />
+    <None Include="wwwroot\lib\popper.js\packages\eslint-config-popper\index.js" />
+    <None Include="wwwroot\lib\popper.js\packages\eslint-config-popper\yarn.lock" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\bower-publish.sh" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\bundle.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\README.md" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\index.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\methods\defaults.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\methods\destroy.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\methods\disableEventListeners.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\methods\enableEventListeners.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\methods\placements.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\methods\update.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\modifiers\applyStyle.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\modifiers\arrow.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\modifiers\computeStyle.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\modifiers\flip.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\modifiers\hide.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\modifiers\index.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\modifiers\inner.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\modifiers\keepTogether.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\modifiers\offset.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\modifiers\preventOverflow.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\modifiers\shift.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\utils\clockwise.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\utils\computeAutoPlacement.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\utils\debounce.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\utils\find.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\utils\findCommonOffsetParent.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\utils\findIndex.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\utils\getBordersSize.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\utils\getBoundaries.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\utils\getBoundingClientRect.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\utils\getClientRect.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\utils\getOffsetParent.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\utils\getOffsetRect.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\utils\getOffsetRectRelativeToArbitraryNode.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\utils\getOppositePlacement.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\utils\getOppositeVariation.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\utils\getOuterSizes.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\utils\getParentNode.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\utils\getPopperOffsets.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\utils\getReferenceOffsets.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\utils\getRoot.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\utils\getScroll.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\utils\getScrollParent.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\utils\getStyleComputedProperty.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\utils\getSupportedPropertyName.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\utils\getViewportOffsetRectRelativeToArtbitraryNode.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\utils\getWindow.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\utils\getWindowSizes.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\utils\includeScroll.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\utils\index.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\utils\isFixed.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\utils\isFunction.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\utils\isIE10.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\utils\isModifierEnabled.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\utils\isModifierRequired.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\utils\isNumeric.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\utils\isOffsetContainer.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\utils\removeEventListeners.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\utils\runModifiers.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\utils\setAttributes.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\utils\setStyles.js" />
+    <None Include="wwwroot\lib\popper.js\packages\popper\src\utils\setupEventListeners.js" />
+    <None Include="wwwroot\lib\popper.js\packages\test-utils\setup.js" />
+    <None Include="wwwroot\lib\popper.js\packages\test-utils\utils\appendNewPopper.js" />
+    <None Include="wwwroot\lib\popper.js\packages\test-utils\utils\appendNewRef.js" />
+    <None Include="wwwroot\lib\popper.js\packages\test-utils\utils\customEventPolyfill.js" />
+    <None Include="wwwroot\lib\popper.js\packages\test-utils\utils\getRect.js" />
+    <None Include="wwwroot\lib\popper.js\packages\test-utils\utils\isMSBrowser.js" />
+    <None Include="wwwroot\lib\popper.js\packages\test-utils\utils\makeConnectedElement.js" />
+    <None Include="wwwroot\lib\popper.js\packages\test-utils\utils\makeConnectedScrollElement.js" />
+    <None Include="wwwroot\lib\popper.js\packages\test-utils\utils\makeElement.js" />
+    <None Include="wwwroot\lib\popper.js\packages\test-utils\utils\prepend.js" />
+    <None Include="wwwroot\lib\popper.js\packages\test-utils\utils\simulateScroll.js" />
+    <None Include="wwwroot\lib\popper.js\packages\test-utils\utils\then.js" />
+    <None Include="wwwroot\lib\popper.js\packages\test-utils\yarn.lock" />
+    <None Include="wwwroot\lib\popper.js\packages\test\bin\karma.js" />
+    <None Include="wwwroot\lib\popper.js\packages\test\karma.conf.js" />
+    <None Include="wwwroot\lib\popper.js\packages\test\README.md" />
+    <None Include="wwwroot\lib\popper.js\packages\tooltip\bundle.js" />
+    <None Include="wwwroot\lib\popper.js\packages\tooltip\src\index.js" />
+    <None Include="wwwroot\lib\popper.js\packages\tooltip\yarn.lock" />
+    <None Include="wwwroot\lib\popper.js\README.md" />
+    <None Include="wwwroot\lib\popper.js\yarn.lock" />
+    <None Include="wwwroot\lib\tether\CHANGELOG.md" />
+    <None Include="wwwroot\lib\tether\CONTRIBUTING.md" />
+    <None Include="wwwroot\lib\tether\dist\js\tether.js" />
+    <None Include="wwwroot\lib\tether\dist\js\tether.min.js" />
+    <None Include="wwwroot\lib\tether\docs\1-Overview\1-why_you_should_use_tether.md" />
+    <None Include="wwwroot\lib\tether\docs\1-Overview\2-repositioning.md" />
+    <None Include="wwwroot\lib\tether\docs\1-Overview\3-why_we_dont_support_IE_8.md" />
+    <None Include="wwwroot\lib\tether\docs\2-Examples\1-list_of_examples.md" />
+    <None Include="wwwroot\lib\tether\docs\2-Examples\2-projects_using_tether.md" />
+    <None Include="wwwroot\lib\tether\docs\3-Advanced\1-embedding_tether.md" />
+    <None Include="wwwroot\lib\tether\docs\3-Advanced\2-extending_tether.md" />
+    <None Include="wwwroot\lib\tether\docs\coffee\intro.coffee" />
+    <None Include="wwwroot\lib\tether\docs\intro.md" />
+    <None Include="wwwroot\lib\tether\docs\js\intro.js" />
+    <None Include="wwwroot\lib\tether\docs\js\markAttachment.js" />
+    <None Include="wwwroot\lib\tether\docs\sass\intro.sass" />
+    <None Include="wwwroot\lib\tether\docs\welcome\coffee\welcome.coffee" />
+    <None Include="wwwroot\lib\tether\docs\welcome\js\drop.js" />
+    <None Include="wwwroot\lib\tether\docs\welcome\js\jquery.js" />
+    <None Include="wwwroot\lib\tether\docs\welcome\js\log.js" />
+    <None Include="wwwroot\lib\tether\docs\welcome\js\tether-v0.1.3.js" />
+    <None Include="wwwroot\lib\tether\docs\welcome\js\welcome.js" />
+    <None Include="wwwroot\lib\tether\docs\welcome\sass\browser-demo.sass" />
+    <None Include="wwwroot\lib\tether\docs\welcome\sass\welcome.sass" />
+    <None Include="wwwroot\lib\tether\docs\welcome\sass\_inline-block.sass" />
+    <None Include="wwwroot\lib\tether\examples\chosen\chosen.js" />
+    <None Include="wwwroot\lib\tether\examples\dolls\dolls.js" />
+    <None Include="wwwroot\lib\tether\examples\resources\js\jquery.js" />
+    <None Include="wwwroot\lib\tether\examples\resources\js\log.js" />
+    <None Include="wwwroot\lib\tether\gulpfile.js" />
+    <None Include="wwwroot\lib\tether\LICENSE" />
+    <None Include="wwwroot\lib\tether\README.md" />
+    <None Include="wwwroot\lib\tether\src\css\helpers\_tether-theme-arrows.sass" />
+    <None Include="wwwroot\lib\tether\src\css\helpers\_tether-theme-basic.sass" />
+    <None Include="wwwroot\lib\tether\src\css\helpers\_tether.sass" />
+    <None Include="wwwroot\lib\tether\src\css\mixins\_inline-block.sass" />
+    <None Include="wwwroot\lib\tether\src\css\mixins\_pie-clearfix.sass" />
+    <None Include="wwwroot\lib\tether\src\css\tether-theme-arrows-dark.sass" />
+    <None Include="wwwroot\lib\tether\src\css\tether-theme-arrows.sass" />
+    <None Include="wwwroot\lib\tether\src\css\tether-theme-basic.sass" />
+    <None Include="wwwroot\lib\tether\src\css\tether.sass" />
+    <None Include="wwwroot\lib\tether\src\js\abutment.js" />
+    <None Include="wwwroot\lib\tether\src\js\constraint.js" />
+    <None Include="wwwroot\lib\tether\src\js\markAttachment.js" />
+    <None Include="wwwroot\lib\tether\src\js\shift.js" />
+    <None Include="wwwroot\lib\tether\src\js\tether.js" />
+    <None Include="wwwroot\lib\tether\src\js\utils.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Bower" Version="1.3.11" />
+    <PackageReference Include="BuildBundlerMinifier" Version="3.2.449" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.3">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.3" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\BlogApp.Entity\BlogApp.Entity.csproj" />
+    <ProjectReference Include="..\BlogApp\BlogApp.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <TypeScriptCompile Include="wwwroot\lib\popper.js\packages\popper\index.d.ts" />
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties libman_1json__JsonSchema="https://docs.renovatebot.com/renovate-schema.json" /></VisualStudio></ProjectExtensions>
+
+</Project>

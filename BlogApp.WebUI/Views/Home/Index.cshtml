@@ -1,0 +1,22 @@
+﻿@model HomeBlogModel
+
+@{ ViewData["Title"] = "Index"; }
+
+
+@await Html.PartialAsync("_Slider", Model.SliderBlogs)
+   
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            @await Component.InvokeAsync("CategoryMenu")
+        </div>
+        <div class="col-md-9">
+
+            @await Html.PartialAsync("_BlogList", Model.HomeBlogs)
+
+            @*<partial name="~/Views/Shared/_BlogList.cshtml" />*@
+
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,9 @@
+C:\Users\ev\source\repos\BlogApp\BlogApp\bin\Debug\netcoreapp3.1\BlogApp.deps.json
+C:\Users\ev\source\repos\BlogApp\BlogApp\bin\Debug\netcoreapp3.1\BlogApp.dll
+C:\Users\ev\source\repos\BlogApp\BlogApp\bin\Debug\netcoreapp3.1\BlogApp.pdb
+C:\Users\ev\source\repos\BlogApp\BlogApp\obj\Debug\netcoreapp3.1\BlogApp.csprojAssemblyReference.cache
+C:\Users\ev\source\repos\BlogApp\BlogApp\obj\Debug\netcoreapp3.1\BlogApp.AssemblyInfoInputs.cache
+C:\Users\ev\source\repos\BlogApp\BlogApp\obj\Debug\netcoreapp3.1\BlogApp.AssemblyInfo.cs
+C:\Users\ev\source\repos\BlogApp\BlogApp\obj\Debug\netcoreapp3.1\BlogApp.csproj.CoreCompileInputs.cache
+C:\Users\ev\source\repos\BlogApp\BlogApp\obj\Debug\netcoreapp3.1\BlogApp.dll
+C:\Users\ev\source\repos\BlogApp\BlogApp\obj\Debug\netcoreapp3.1\BlogApp.pdb
